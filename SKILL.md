@@ -41,22 +41,22 @@ Look for:
 
 The story answer will usually carry the scene, and the opinion answer will usually carry the point — but don't force both in if only one has real material. If the transcript material rambles across multiple unrelated topics, pick the one with the most specific detail and the clearest turn, rather than trying to cram all of it in.
 
-## Step 4: Pick two structures (or two angles)
+## Step 4: Let the user pick the structure
 
-Read `references/structures.md` for the four structures with full templates and examples of what to avoid.
+Read `references/structures.md` for the four structures with full templates and examples of what to avoid. None of the four is objectively "the best fit" — they're different framings of the same material, and which one lands is a matter of the user's taste and what they feel like putting their name on, not something to decide for them. Present all four, neutrally, and let them choose:
 
-- **Storytelling** — centers on one specific moment or scene. Best fit when the content is narrative.
-- **Listicle/tactical** — mostly "here's what I did / what worked," with several distinct takeaways. Best fit when the content is instructional.
+- **Storytelling** — centers on one specific moment or scene.
+- **Listicle/tactical** — "here's what I did / what worked," a few distinct takeaways.
 - **Contrarian/hot take** — pushes back on common advice or states a strong, slightly unpopular opinion.
-- **Before/after (lesson from a mistake)** — centers on something that went wrong and what changed after.
+- **Before/after (lesson from a mistake)** — something went wrong, then what changed.
 
-Pick the best fit as the primary structure, and a second, genuinely different structure as an alternate — the user gets two drafts to choose from rather than one to accept or reject. Don't force a second structure the material can't support: if only one structure genuinely fits, keep that structure for both drafts but vary the hook and angle enough that they're two real options, not the same post with synonyms swapped.
+If the material genuinely can't support one of the four (e.g. there's no opinion anywhere for contrarian, or no scene for storytelling), say so plainly rather than silently dropping it from the list — let the user know why it's off the table if they ask for it anyway.
 
-If the user names a structure up front, honor it for the primary draft; the alternate can still be a different structure or a different angle within the same one, whichever the material supports better. Say which structures/angles you picked and why — don't make the user choose blind before seeing anything.
+Ask whether they want one structure or two to compare side by side — both are fine, don't default to two without asking. If they say "you pick" or don't have a preference, then and only then choose for them, and say briefly why.
 
-## Step 5: Draft both variants
+## Step 5: Draft the chosen structure(s)
 
-Write each draft using the real details pulled in Step 3, calibrated to the voice profile from Step 2. A few things that matter regardless of structure:
+Write each requested draft using the real details pulled in Step 3, calibrated to the voice profile from Step 2. A few things that matter regardless of structure:
 
 - **First person, casual register.** Contractions, sentence fragments where a real person would use them, the actual words the transcript used where they're distinctive (if they said "I panicked," don't upgrade it to "I experienced significant anxiety").
 - **Specific beats vague.** "I bombed the first two questions of my PM interview at [Company]" beats "I faced some challenges during a recent interview process."
@@ -65,11 +65,11 @@ Write each draft using the real details pulled in Step 3, calibrated to the voic
 - **Formatting**: avoid the AI tics — no wall of bolded headers, no emoji bullet lists standing in for sentences, no scattered emoji. Line breaks for pacing are fine and normal for LinkedIn; heavy markdown structure is not.
 - **CTA**: end soft if at all — a real question, an invitation to share their own experience, or just let the post land without one. Never "Let's connect!" or a bare "Thoughts?" tacked on.
 
-## Step 6: Hook check — both drafts, every structure
+## Step 6: Hook check — every draft, every structure
 
-Every structure lives behind LinkedIn's "…see more" fold, not just storytelling posts — a flat opener kills a listicle or a contrarian take just as fast as it kills a story. Run the `viral-hooks` skill against the first 1-2 lines of **both** drafts before moving on. If either draft's primary structure is storytelling, also check its overall arc against the `storytelling` skill.
+Every structure lives behind LinkedIn's "…see more" fold, not just storytelling posts — a flat opener kills a listicle or a contrarian take just as fast as it kills a story. Run the `viral-hooks` skill against the first 1-2 lines of **each** draft before moving on. For any draft using the storytelling structure, also check its overall arc against the `storytelling` skill.
 
-## Step 7: Authenticity pass — humanizer, then anti-ai-writing, on both drafts
+## Step 7: Authenticity pass — humanizer, then anti-ai-writing, on every draft
 
 Never skipped, regardless of how clean a draft looks after Step 6. Run two passes, in this order, on each draft:
 
@@ -98,14 +98,14 @@ Before showing the user anything, check each draft against this list and fix any
 
 ## Step 9: Deliver
 
-For each of the two drafts, give the user:
+For each draft delivered, give the user:
 1. The post itself, ready to copy-paste.
 2. 2-3 hashtags specific to the content (not `#motivation #hustle #grindset` — pull from the actual field/topic/school/company mentioned).
-3. One line naming the structure/angle and why it might work, so the user learns the pattern for next time.
+3. One line naming the structure/angle, so the user learns the pattern for next time.
 
 Then:
 - Flag plainly anything that required inventing a detail not present in the material (a number, a name, an outcome) — never let a fabricated specific slip through disguised as something from their own life.
 - If this session created or updated the voice profile file, mention that briefly (see Step 2).
-- Ask which draft they want, or whether they'd like a third angle.
+- If they only asked for one structure, ask if they'd like to see it in a different one too, without pushing it.
 
-If the user wants a different structure or angle after seeing both drafts, redo Step 4 onward for that one draft — don't just patch the existing text, since a different structure usually means a genuinely different opening and shape, not a find-and-replace.
+If the user wants a different structure or angle after seeing a draft, redo Step 4 onward — don't just patch the existing text, since a different structure usually means a genuinely different opening and shape, not a find-and-replace.
