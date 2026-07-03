@@ -54,16 +54,23 @@ Write the draft using the real details pulled in Step 2. A few things that matte
 - **Formatting**: avoid the AI tics — no wall of bolded headers, no emoji bullet lists standing in for sentences, no "🚀" or "✨" scattered around. Line breaks for pacing are fine and normal for LinkedIn; heavy markdown structure is not.
 - **CTA**: end soft if at all — a real question, an invitation to share their own experience, or just let the post land without one. Never "Let's connect!" or "Thoughts?" as a bare tacked-on line.
 
-## Step 5: Run the authenticity pass
+## Step 5: Run the authenticity pass — always invoke `humanizer`
 
-This step is not optional — it's where AI-sounding drafts get caught before the user sees them. Explicitly apply the `anti-ai-writing` skill and the `humanizer` skill to the draft. Look specifically for:
-- Em dash overuse
-- Rule-of-three lists ("resilient, resourceful, and driven")
-- Inflated stakes on ordinary events
-- Vague attributions ("studies show," "many people say")
-- Any sentence that could be published by literally anyone with the names swapped out — if a line doesn't need the specific details from this transcript to be true, cut or sharpen it
+This step is never skipped, regardless of how clean the draft from Step 4 looks. Before showing the draft to the user, hand it to the `humanizer` skill and run its actual process on it — not just a mental checklist inspired by it, the real draft → audit → final-rewrite loop it defines:
 
-If the structure is storytelling, also check the hook against the `viral-hooks` skill and the overall arc against the `storytelling` skill — the opening line is what earns the "…see more" click on LinkedIn, and it's the easiest place for a draft to go generic.
+1. Read the Step 4 draft as the "before" text.
+2. Write a **draft rewrite** through humanizer's lens, checking it against its full pattern list — inflated significance, promotional language, superficial "-ing" tacked-on analysis, vague attributions, rule-of-three, AI vocabulary (*delve, crucial, testament, underscore, vibrant,* etc.), copula avoidance, negative parallelisms, hedging, filler phrases, sycophantic tone, and generic upbeat closers.
+3. Apply humanizer's **hard constraint on em/en dashes**: the final draft contains zero `—` or `–`. Scan for them explicitly before finishing — this is the single most common AI tell and the one most likely to slip through if the drafting step above used one.
+4. Ask humanizer's own question: *"What makes this so obviously AI generated?"* — answer it honestly against the draft, then fix whatever it surfaces.
+5. Produce the **final rewrite** — this is what moves on to Step 6, not the Step 4 draft.
+
+A few things specific to a LinkedIn post that humanizer's general checklist won't automatically catch, so watch for these too:
+- Any sentence that could be published by literally anyone with the names swapped out — if a line doesn't need the specific details from this transcript to be true, cut or sharpen it.
+- LinkedIn-native slop that isn't in humanizer's generic list but is just as much a tell here: "I'm thrilled to announce," "humbled and honored," "excited to share," a bare "Thoughts?" as a CTA, or a paragraph that exists only to restate the hook in fancier words.
+
+Per humanizer's own guidance, don't over-correct signs of real human writing — the specific, hard-to-fabricate details pulled in Step 2 (a name, a number, an exact thing someone said) are exactly what should survive this pass untouched. This step's job is to strip the AI patterns layered on top of those details, not to sand the details themselves down into something safer and blander.
+
+If the structure is storytelling, also check the hook against the `viral-hooks` skill and the overall arc against the `storytelling` skill before running humanizer — the opening line is what earns the "…see more" click on LinkedIn, and it's the easiest place for a draft to go generic. Run humanizer last, after those two, so it's the final filter the post passes through.
 
 ## Step 6: Deliver
 
