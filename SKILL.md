@@ -54,14 +54,22 @@ If the material genuinely can't support one of the four (e.g. there's no opinion
 
 Ask whether they want one structure or two to compare side by side — both are fine, don't default to two without asking. If they say "you pick" or don't have a preference, then and only then choose for them, and say briefly why.
 
+While you're asking, also ask how long they want the post — this is the user's call, not a fixed rule per structure. Give them a feel for the range rather than making them guess a character count:
+
+- **Short/punchy** — a few tight lines, the kind that reads in one glance without expanding "…see more." Best when the point is sharp enough not to need room to build.
+- **Standard** — roughly what fits before or just past the fold, the common length for tactical/contrarian/before-after posts on LinkedIn.
+- **Long-form** — as much room as the story needs to breathe, common for storytelling posts with a scene worth slowing down for.
+
+If they don't have a preference, default to standard length for listicle/contrarian/before-after and long-form for storytelling — but treat that as a fallback, not a rule to argue them out of if they want something different. A short contrarian take and a long, unrushed story are both legitimate; don't quietly pad a short answer or trim a long one back toward the "expected" length for that structure.
+
 ## Step 5: Draft the chosen structure(s)
 
-Write each requested draft using the real details pulled in Step 3, calibrated to the voice profile from Step 2. A few things that matter regardless of structure:
+Write each requested draft using the real details pulled in Step 3, calibrated to the voice profile from Step 2 and the length the user chose in Step 4. A few things that matter regardless of structure:
 
 - **First person, casual register.** Contractions, sentence fragments where a real person would use them, the actual words the transcript used where they're distinctive (if they said "I panicked," don't upgrade it to "I experienced significant anxiety").
 - **Specific beats vague.** "I bombed the first two questions of my PM interview at [Company]" beats "I faced some challenges during a recent interview process."
 - **Student voice, not executive voice.** This is personal branding for someone early in their career — the tone should read as humble-but-confident and relatable to peers, not like a VP thought-leadership post. No "I'm thrilled to announce," no "humbled and honored," no talking down to the reader from a position of authority they don't have yet.
-- **Length**: aim under ~1,300 characters for tactical/contrarian/before-after posts, since that's what performs best in-feed. Storytelling posts can run longer if the story needs the room.
+- **Length**: hold to whatever the user chose in Step 4. If a detail doesn't fit within a short/punchy length, cut it rather than quietly running long; if long-form was chosen, don't pad with filler just to fill the space — extra length should come from earning the story room, not stretching sentences.
 - **Formatting**: avoid the AI tics — no wall of bolded headers, no emoji bullet lists standing in for sentences, no scattered emoji. Line breaks for pacing are fine and normal for LinkedIn; heavy markdown structure is not.
 - **CTA**: end soft if at all — a real question, an invitation to share their own experience, or just let the post land without one. Never "Let's connect!" or a bare "Thoughts?" tacked on.
 
@@ -91,7 +99,7 @@ Before showing the user anything, check each draft against this list and fix any
 
 - [ ] At least one specific, hard-to-fabricate detail from the material survived (not generalized away)
 - [ ] Nothing was invented that isn't flagged for the user to confirm
-- [ ] Length fits the structure (see Step 5)
+- [ ] Length matches what the user chose in Step 4
 - [ ] Hook passes the Step 6 check
 - [ ] Zero em/en dashes remain
 - [ ] The draft actually sounds like the voice profile, not a generic student
