@@ -2,6 +2,8 @@
 
 Each structure below has a shape, a template, and what usually goes wrong when it's written by an AI instead of a person. Use the shape as a skeleton, not a fill-in-the-blank form — real posts break these rules constantly, and a post that too visibly follows the template is itself an AI tell.
 
+**A note on formatting, based on real high-performing posts:** the common thread across strong LinkedIn posts isn't dense, essay-style paragraphs — it's short, single-thought lines with real whitespace between them, closer to how someone would pause between thoughts out loud than how they'd write a report. A few takeaways are often numbered plainly (`1/`, `2/`, `3/`) rather than buried in prose. None of this is the same as the AI-tell version (bolded inline headers, emoji standing in for bullets, a "Conclusion" section) — it's closer to spoken rhythm than to formatting for its own sake. Apply this rhythm across all five structures below, not just the ones that look listy.
+
 ## 1. Storytelling
 
 **When to use:** the transcript has one specific scene — a moment, a conversation, a day, a decision — with a beginning, a turn, and an end.
@@ -115,4 +117,33 @@ times. Felt stupid doing it. Went fine.
 
 Turns out "I work better under pressure" was just a story I told myself
 so I didn't have to practice.
+```
+
+## 5. Milestone/gratitude announcement
+
+**When to use:** the material centers on a real milestone — a new job, an offer, a graduation, an acceptance — especially when there are specific people to credit.
+
+This is the structure most likely to collapse into AI slop, because the generic version of it ("I'm thrilled to announce... incredibly grateful for this opportunity... here's to new beginnings!") is everywhere and technically still gets engagement on LinkedIn regardless of quality, since people reflexively congratulate milestone posts. That's not a reason to write the generic version — it's a reason to make sure the specific version, which is just as easy to write from real material, is the one that goes out.
+
+**Shape:**
+- The announcement, stated plainly in one line — no "I'm excited to share" windup before it.
+- One specific, concrete reason this one mattered — not "incredibly grateful for this opportunity," but the actual thing that made it hard or meaningful (see Step 3 in the main skill for how to pull this from the material).
+- Real people credited by name, for a specific reason each, not a tagged list with one generic "for believing in me" applied to all of them. If real names aren't available, say so and use a placeholder the user is expected to fill in — never invent a name to make the thank-you list look fuller.
+- Optional short line on what's next, only if there's something concrete to say — not "looking forward to growing professionally."
+
+**Avoid:** "I'm thrilled/excited/humbled to announce," "incredibly grateful for this opportunity," a wall of tagged names with the same generic reason attached to each, "here's to new beginnings," a hashtag pile at the end that just restates the announcement (`#NewJob #CareerGrowth #Excited`).
+
+**Example shape:**
+```
+Starting as a data analyst at [Company] next month.
+
+Applied to this one twice. Got rejected the first time for not having
+enough SQL experience, so I spent three months doing it badly on my own
+projects until it stopped being bad.
+
+[Name] reviewed my resume four separate times before I felt okay sending
+it. [Name] did a mock interview with me at 11pm the night before, unpaid,
+because I asked.
+
+Still don't feel like I "made it." Just feels like the SQL finally worked.
 ```

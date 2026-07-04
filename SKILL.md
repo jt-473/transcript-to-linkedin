@@ -49,6 +49,7 @@ Read `references/structures.md` for the four structures with full templates and 
 - **Listicle/tactical** — "here's what I did / what worked," a few distinct takeaways.
 - **Contrarian/hot take** — pushes back on common advice or states a strong, slightly unpopular opinion.
 - **Before/after (lesson from a mistake)** — something went wrong, then what changed.
+- **Milestone/gratitude announcement** — a new job, offer, graduation, or acceptance, with real people to credit. Only offer this one when the material actually has a milestone in it.
 
 If the material genuinely can't support one of the four (e.g. there's no opinion anywhere for contrarian, or no scene for storytelling), say so plainly rather than silently dropping it from the list — let the user know why it's off the table if they ask for it anyway.
 
@@ -70,8 +71,8 @@ Write each requested draft using the real details pulled in Step 3, calibrated t
 - **Specific beats vague.** "I bombed the first two questions of my PM interview at [Company]" beats "I faced some challenges during a recent interview process."
 - **Student voice, not executive voice.** This is personal branding for someone early in their career — the tone should read as humble-but-confident and relatable to peers, not like a VP thought-leadership post. No "I'm thrilled to announce," no "humbled and honored," no talking down to the reader from a position of authority they don't have yet.
 - **Length**: hold to whatever the user chose in Step 4. If a detail doesn't fit within a short/punchy length, cut it rather than quietly running long; if long-form was chosen, don't pad with filler just to fill the space — extra length should come from earning the story room, not stretching sentences.
-- **Formatting**: avoid the AI tics — no wall of bolded headers, no emoji bullet lists standing in for sentences, no scattered emoji. Line breaks for pacing are fine and normal for LinkedIn; heavy markdown structure is not.
-- **CTA**: end soft if at all — a real question, an invitation to share their own experience, or just let the post land without one. Never "Let's connect!" or a bare "Thoughts?" tacked on.
+- **Formatting**: avoid the AI tics — no wall of bolded headers, no emoji bullet lists standing in for sentences, no scattered emoji. What actually performs on LinkedIn is short, single-thought lines with real whitespace between them rather than dense paragraphs — one idea per line break, not one idea per paragraph. This isn't the same thing as AI-style over-formatting: there are no bolded headers or bullet icons doing the sentence's job, just a person pausing between thoughts the way they would talking. A numbered or slash-numbered list (`1/ 2/ 3/`) is a normal, non-AI way to present a few takeaways — it's the inline-bolded-header version (`**Takeaway 1:** ...`) that's the tell, not numbering itself.
+- **CTA**: three options, pick whichever fits the structure and what the material can support — don't default to the same one every time. A soft question or invitation to share their own experience. A direct, specific comment prompt (e.g. asking readers to comment their own answer, city, or role) when the post is genuinely built to start a conversation, not tacked on as an afterthought. Or no CTA at all, letting the post land on its own. Never a bare "Thoughts?" or "Let's connect!" — those aren't real prompts, they're filler.
 
 ## Step 6: Hook check — every draft, every structure
 
